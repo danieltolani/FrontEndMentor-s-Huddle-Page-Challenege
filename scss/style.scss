@@ -283,6 +283,13 @@ p.brand-explanation{
     background-color: white;
     box-shadow: 2px 2px 8px 4px rgba(0, 0, 0, 0.24);
     cursor: pointer;
+
+    &:hover{
+        background-color: $Violet;
+        color: white;
+        transform: scale(0.98);
+        transition: all 0.2s ease-out 0.01s;
+    }
 }
 }
 
