@@ -285,9 +285,10 @@ p.brand-explanation{
     cursor: pointer;
 
     &:hover{
+        box-shadow: none;
         background-color: $Violet;
         color: white;
-        transform: scale(0.98);
+        transform: scale(0.99);
         transition: all 0.2s ease-out 0.01s;
     }
 }
